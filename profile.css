@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(174, 177, 180);
+}
+.box1{
+    border: 1px solid;
+    width: 620px;
+    height: 400px;
+    border: none;
+    background-color:rgb(200, 178, 221);
+    border-radius: 18px;
+    position: relative;
+    top: 110px;
+    left: 27%;
+    z-index: 0;
+    box-shadow: 0 0 19px rgb(34, 33, 33);
+}
+#i1{
+    border: 1px solid black;
+    width: 208px;
+    height: 211px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0 0 20px rgb(128, 19, 230);
+    border: none;
+    background-color: white;
+}
+#i1:hover{
+    animation-name: ra;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ra {
+    0%{box-shadow:0 0 20px gold;}
+    10%{box-shadow:0 0 20px goldenrod;}
+    20%{box-shadow:0 0 20px green;}
+    30%{box-shadow:0 0 20px crimson;}
+    40%{box-shadow:0 0 20px red;}
+    50%{box-shadow:0 0 20px blueviolet;}
+    60%{box-shadow:0 0 20px blue;}
+}
+#i1 img{
+    position: relative;
+    top: -45px;
+    left: -143px;
+    width: 500px;
+
+}
+#i2{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:-116.9%;
+    left: 83.9%;
+    border-top-right-radius:18px;
+    border-bottom-left-radius:100px;
+    background-color: blueviolet;
+    border: none;
+}
+.box1 h1{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    position: relative;
+    top: -200px;
+    left: 45%;
+    color: rgb(128, 19, 230);
+}
+.box1 h2{
+    position: relative;
+    top: -210px;
+    left: 45%;
+    font-size: 1rem;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    color: rgb(57, 57, 58);
+}
+.box1 p{
+    position: relative;
+    top: -200px;
+    left: 45%;
+    font-size: 1rem;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 100px;
+    font-style:1.3rem;
+    color: rgb(255, 255, 255);
+    text-indent: 50px;
+}
+.c1{
+    position: relative;
+    top: -320px;
+    left: 38%;
+}
+.c1 li{
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    margin-top: -10px;
+    font-size: 1.4rem;
+}
+.c1 h3{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 1rem;
+    color: rgb(48, 46, 46);
+}
+.c2{
+    position: relative;
+    top: -323px;
+    left: 43%;
+}
+.c2 a,button{
+    padding: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 0.9rem;
+}
+.c2 button:hover{
+    box-shadow: 0 0 20px black;
+}
+.c3{
+    position: relative;
+    top: -390px;
+    left: 50px;
+    font-size: 1.3rem;
+}
+.c3 i{
+    border: 1px solid;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    background-color:rgb(128, 19, 230);
+}
+.c3 i:hover{
+    box-shadow: 0 0 27px rgb(153, 0, 255);
+    color: white;
+    margin-top: 5px;
+}
